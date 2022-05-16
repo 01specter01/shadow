@@ -14,14 +14,6 @@ body {
     border: 1px solid #cccccc;
 }
 
-/*
-            Ein sehr einfacher Schlagschatten.
-            Der erste Wert gibt den Versatz auf der x-Achse an (offset x),
-            der zweite Wert den Versatz auf der y-Achse (offset y).
-            Der dritte Wert bestimmt die Farbe des Schattens.
-         */
-
-/* Klassen für Schatten helfen uns, die Richtung des Lichts beizubehalten und zentral zu steuern. */
 .box-shadow {
     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.16), 2px 2px 3px rgba(0, 0, 0, 0.16),
         5px 5px 5px rgba(0, 0, 0, 0.16);
@@ -45,7 +37,8 @@ body {
         10px 10px 15px rgba(0, 0, 0, 0.4), 15px 15px 18px rgba(0, 0, 0, 0.3);
 }
 .elevation-5 {
-    box-shadow: 70px 70px 18px rgba(0, 0, 0, 0.2);
+    box-shadow: 20px 20px 22px rgba(0, 0, 0, 0.2),
+        30px 30px 35px rgba(0, 0, 0, 0.15), 45px 45px 49px rgba(0, 0, 0, 0.1);
 }
 .elevation-6 {
     box-shadow: 20px 20px 25px rgba(0, 0, 0, 0.3),
