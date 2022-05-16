@@ -2,6 +2,14 @@ body {
     padding: 10vw;
     margin: 0;
 }
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: 900;
+    font-size: 64px;
+    color: rgb(110, 110, 110);
+    text-shadow: 5px 5px 8px rgba(0, 0, 0, 0.5);
+}
 .shadows {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
